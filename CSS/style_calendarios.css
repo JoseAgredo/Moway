@@ -1,0 +1,71 @@
+.header {
+    border: 1px solid blanchedalmond;
+      background-color: var(--color_secundario);
+      margin: 20px 10px;
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 5px;
+}
+.nombre_1{
+        
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+        padding: 10px;
+}
+.calen {
+    background-color: var(--color_secundario);
+    margin: auto;
+    width: 80%;
+    padding-left: 4%;
+    padding-right: 3%;
+    border: 2px solid blanchedalmond;
+    border-radius: 15px;
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--botones);
+    color: var(--botones_letras);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 12.25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    
+  }
+.button_1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--botones);
+    color: var(--botones_letras);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 2%;
+}  
+.button_2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color_secundario);
+    color: var(--color_secundario);
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 12.25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    
+  }
+  .button_2:hover{
+      background-color: var(--color_secundario);
+  }

@@ -1,0 +1,61 @@
+.header {
+border: 1px solid blanchedalmond;
+  background-color: var(--color_secundario);
+  margin: 20px 10px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  }
+.nombre_1{
+    
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+.nombre_2{
+  
+  border: 1px solid blanchedalmond;
+  background-color: var(--color_secundario);
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+.nav__item {
+    font-size: 1.25em;
+  }
+section{
+    display: flex; 
+flex-wrap: wrap;
+justify-content: center;
+}
+.logo{
+    margin:auto;
+  width: 20%;
+  height: 20%;
+}
+.rutas_menu{
+  background-color: var(--botones);
+  color: var(--botones_letras);
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+select{
+  width: 40%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  color: var(--botones_letras);
+  padding-left: 30px ;
+  padding-right: 0px;
+  border: black;
+  background-color: var(--botones);
+}

@@ -1,0 +1,25 @@
+.header {
+  border: 1px solid blanchedalmond;
+background-color: var(--color_secundario);
+margin: 20px 10px;
+display: flex; 
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 5px;
+}
+.logo {
+  margin:auto;
+  width: 20%;
+  height: 20%;
+}
+.nombre {
+  border: 1px solid blanchedalmond;
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+}
+.nav__item {
+    font-size: 1.25em;
+  }

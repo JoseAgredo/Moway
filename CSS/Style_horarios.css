@@ -1,0 +1,55 @@
+.header {
+    border: 1px solid blanchedalmond;
+      background-color: var(--color_secundario);
+      margin: 20px 10px;
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 5px;
+      }
+    .nombre_1{
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+        padding: 10px;
+      }
+      .nombre_2{
+          background-color: var(--color_secundario);
+        border: 1px solid blanchedalmond;
+          text-align: center;
+          border-radius: 5px;
+          margin: auto;
+          padding: 10px;
+      }
+section{
+    text-align: center;
+}
+.logo{
+    margin:auto;
+  width: 70%;
+  height: 70%;
+}
+select{
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: var(--botones_letras);
+    padding-left: 30px ;
+    padding-right: 0px;
+    border: black;
+    background-color: var(--botones);
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--botones);
+    color: var(--botones_letras);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+  }
